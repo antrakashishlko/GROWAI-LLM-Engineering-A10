@@ -1,3 +1,10 @@
+"""
+This project fine-tunes Qwen2.5-1.5B-Instruct as a domain-specific cooking assistant.
+A custom cooking dataset is formatted in ChatML and used for LoRA/QLoRA fine-tuning
+with Unsloth and 4-bit quantization. The fine-tuned model is exported to GGUF format
+and deployed locally using Ollama for cooking-domain instruction following.
+"""
+
 import json
 
 INPUT_FILE = "chatml_cooking_dataset_v2.json"
