@@ -2,7 +2,7 @@
 
 ## Fine-Tune & Deploy a Domain-Specific LLM
 
-This project demonstrates the fine-tuning and local deployment of a **domain-specific cooking assistant** using **Qwen2.5-1.5B-Instruct**.
+This project demonstrates the fine-tuning and local deployment of a **domain-specific Indian cooking assistant** called **ChefMate** using **Qwen2.5-1.5B-Instruct**.
 
 A custom dataset of **76 cooking-related instruction-response examples** was validated, formatted in ChatML and used for parameter-efficient fine-tuning with **LoRA/QLoRA and Unsloth**. The fine-tuned model was exported to **GGUF Q4_K_M** format and deployed locally using **Ollama**.
 
@@ -46,38 +46,60 @@ A custom dataset of **76 cooking-related instruction-response examples** was val
 pip install -r requirements.txt
 ```
 
-Fine-tuning was performed in Google Colab using a GPU and Unsloth.
+Fine-tuning was performed in **Google Colab using a GPU and Unsloth**. The complete training notebook is included in:
+
+```text
+training/ChefMate_FineTuning.ipynb
+```
 
 ### 2. Dataset
 
-The final dataset contains **76 validated cooking-related examples** covering:
+The final cooking dataset contains **76 validated examples** covering:
 
 * Indian recipes
 * Ingredient substitutions
 * Cooking techniques
-* Ingredient-based meals
 * Food storage
 * Vegetarian and vegan cooking
 * Cooking troubleshooting
 
 The ChatML training dataset is available at:
+
 ```text
 dataset/chatml_cooking_dataset_v2.json
 ```
 
+Dataset validation is performed using:
+
+```text
+dataset/validate_chatml_v2.py
+```
+
+The validation completed successfully with **76 total examples and 0 validation errors**.
+
 ### 3. Ollama Deployment
 
-The fine-tuned model was exported as a GGUF Q4_K_M model.
+The fine-tuned model was exported as a **GGUF Q4_K_M** model.
+
+The GGUF model and Modelfile are available in:
+
+```text
+deployment/
+```
 
 Using the provided `Modelfile`, create the local Ollama model:
+
 ```text
-ollama create chefmate-v2 -f Modelfile
+ollama create chefmate -f Modelfile
 ```
 
 Run the model:
+
 ```text
-ollama run chefmate-v2
+ollama run chefmate
 ```
+
+The deployed model was tested successfully with Indian cooking questions.
 
 ## Fine-Tuning Configuration
 
@@ -90,21 +112,40 @@ ollama run chefmate-v2
 | Training Steps        | 100                   |
 | Learning Rate         | 2e-4                  |
 | Training Quantization | 4-bit                 |
+| Trainable Parameters  | 1.18%                 |
 | Output Format         | GGUF Q4_K_M           |
+
+Training loss decreased during the 100-step training process, indicating that the model learned from the cooking-domain training data.
 
 ## Model Evaluation & Comparison
 
-The **base model, original fine-tuned model (V1) and improved fine-tuned model (V2)** were evaluated using the same five cooking questions:
+The **base model, V1 fine-tuned model and V2 fine-tuned model** were evaluated using the same five cooking questions.
 
-1. Dal tadka preparation
-2. Paneer substitution
-3. Fixing an overly salty curry
-4. Safe cooked-rice storage
-5. Vegetarian meal using potatoes and spinach
+The evaluated models were:
 
-V2 showed improved cooking-domain alignment and better adherence to user-provided ingredients in several test cases. However, the evaluation also identified remaining recipe and food-safety limitations.
+| Version | Ollama Model              |
+| ------- | ------------------------- |
+| Base    | `qwen2.5:1.5b`            |
+| V1      | `chefmate-cooking:latest` |
+| V2      | `chefmate-v2:latest`      |
 
-For example, V2 correctly generated a vegetarian potato-spinach curry, while V1 introduced meat-based sausage despite the vegetarian requirement.
+The five evaluation questions were:
+
+1. How do I prepare dal tadka?
+2. How can I substitute paneer in a vegetarian Indian recipe?
+3. How should I store cooked rice safely?
+4. Why is my roti becoming hard and dry?
+5. How can I make a vegetarian Indian curry less spicy?
+
+This resulted in **15 total model evaluations**.
+
+The complete evaluation output is saved in:
+
+```text
+evaluation/evaluation_results.json
+```
+
+The evaluation showed that the fine-tuned models generally produced more cooking-focused responses than the base model. However, some responses still contained factual or food-safety limitations. This demonstrates that fine-tuning improves domain behavior but does not guarantee complete factual accuracy.
 
 ## Fine-Tuning vs RAG vs Prompt Engineering
 
@@ -133,23 +174,44 @@ ChefMate can serve as a foundation for:
 
 ## Edge Case / Failure Point
 
-Fine-tuning on a relatively small dataset does not guarantee factual accuracy. During evaluation, some responses contained questionable cooking procedures and food-safety guidance.
+Fine-tuning on a relatively small dataset does not guarantee factual accuracy.
 
-Dataset validation, duplicate removal and manual review can reduce these issues, while a trusted RAG knowledge base can provide additional grounding for safety-critical information.
+The dataset validation script checks for:
+
+* Missing `messages` fields
+* Incorrect number of messages
+* Incorrect message roles
+* Empty user messages
+* Empty assistant messages
+
+The final dataset passed validation with **0 errors**.
+
+During model evaluation, some generated responses also contained questionable cooking procedures or food-safety guidance. This shows the importance of manual review and additional grounding for safety-sensitive cooking information.
 
 ## Project Files
 
 ```text
-dataset/
-├── chatml_cooking_dataset_v2.json
-├── final_cooking_dataset_v2_clean.json
-└── validate_chatml__v2.py
-
-deployment/
-└── Modelfile
-
-requirements.txt
-.gitignore
+FineTune_Domain_Specific_LLM/
+│
+├── dataset/
+│   ├── chatml_cooking_dataset_v2.json
+│   ├── final_cooking_dataset_v2_clean.json
+│   └── validate_chatml_v2.py
+│
+├── deployment/
+│   ├── Modelfile
+│   └── Qwen2.5-1.5B-Instruct.Q4_K_M.gguf
+│
+├── evaluation/
+│   ├── evaluate_models.py
+│   └── evaluation_results.json
+│
+├── training/
+│   └── ChefMate_FineTuning.ipynb
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
 ## Future Improvements
