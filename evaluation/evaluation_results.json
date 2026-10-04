@@ -1,0 +1,107 @@
+[
+  {
+    "question_number": 1,
+    "question": "How do I prepare dal tadka?",
+    "model_version": "Base",
+    "model_name": "qwen2.5:1.5b",
+    "response": "Dal tadka is a popular dish in Indian cuisine, typically made with lentils \u001b[K\nand spices. Here's a basic guide on how to prepare dal tadka:\n\n### Ingredients:\n- 1 cup of dal (split yellow lentils or red lentils)\n- Water\n- 2-3 tablespoons of oil or ghee (clarified butter)\n- 1 teaspoon of mustard seeds\n- 1 teaspoon of curry leaves\n- 1-inch piece of ginger\n- 3-4 green chilies, finely chopped\n- 1-inch piece of garlic\n- 1-inch piece of onion, finely chopped\n- 2-3 cloves of garlic, finely chopped\n- 2-3 green chilies, finely chopped\n- 1 teaspoon of turmeric powder\n- 1 teaspoon of coriander powder\n- 1 teaspoon of garam masala\n- Salt to taste\n- 1/4 cup of yogurt\n- Fresh coriander leaves, chopped (for garnish)\n\n### Method:\n\n1. **Soak the Dal**: Rinse the dal and soak it in water for about 30 minute\u001b[6D\u001b[K\nminutes. This will help to soften the dal.\n\n2. **Cook the Dal**: Heat the oil or ghee in a heavy-bottomed pan over medi\u001b[4D\u001b[K\nmedium heat. Add the mustard seeds and curry leaves. When they start to spl\u001b[3D\u001b[K\nsplutter, add the dal and stir well to coat it with the oil.\n\n3. **Add Spices**: Add the turmeric powder, coriander powder, garam masala,\u001b[7D\u001b[K\nmasala, and salt. Stir well.\n\n4. **Cook the Spices**: Cook the spices for a few minutes until they are fr\u001b[2D\u001b[K\nfragrant.\n\n5. **Add Chopped Vegetables**: Add the finely chopped onion, ginger, garlic\u001b[6D\u001b[K\ngarlic, and green chilies to the dal. Cook for 2-3 minutes until the vegeta\u001b[6D\u001b[K\nvegetables are just soft.\n\n6. **Add Yogurt**: Stir in the yogurt and bring the mixture to a boil. This\u001b[4D\u001b[K\nThis will help to thicken the dal tadka.\n\n7. **Cook the Dal Again**: Reduce the heat and let the dal cook for another\u001b[7D\u001b[K\nanother 5-7 minutes, stirring occasionally.\n\n8. **Season and Serve**: Adjust the seasoning with salt and more garam masa\u001b[4D\u001b[K\nmasala if needed. Garnish with fresh coriander leaves before serving.\n\n### Tips:\n- Use a heavy-bottomed pan for even heat distribution and better cooking.\n- You can add more or less of the spices according to your taste.\n- You can also add other vegetables like peas, beans, or potatoes for varie\u001b[5D\u001b[K\nvariety.\n- Serve hot with rice or rotis.\n\nEnjoy your dal tadka!"
+  },
+  {
+    "question_number": 1,
+    "question": "How do I prepare dal tadka?",
+    "model_version": "V1",
+    "model_name": "chefmate-cooking:latest",
+    "response": "To prepare dal tadka, begin by boiling 1 cup of dried lentils (masoor dal) \u001b[K\nwith 2 liters of water until they are soft. Once done, set aside the lentil\u001b[6D\u001b[K\nlentils and keep the cooking liquid aside for later use. In the meantime, h\u001b[1D\u001b[K\nheat a tablespoon of oil in a pan over medium heat. Add 1 teaspoon cumin se\u001b[2D\u001b[K\nseeds and 1 minced garlic clove, sautéing until the seeds crackle. Stir in \u001b[K\n1 grated ginger chunk, 1 diced raw carrot, and 1 finely chopped green chili\u001b[5D\u001b[K\nchili pepper for color. Cook until softened. Now, add 2 teaspoons turmeric \u001b[K\npowder, 1/2 teaspoon asafoetida (hing), and 1 minced piece of garlic to the\u001b[3D\u001b[K\nthe pan. Sauté for a minute before adding 1 can (400g) of diced tomatoes, 1\u001b[1D\u001b[K\n1 inch of sliced ginger, and 1 minced tomato puree for flavor enhancement. \u001b[K\nStir well and let it simmer on low heat for about 15 minutes until the toma\u001b[4D\u001b[K\ntomatoes break down. Now, add the boiled lentils to the pan with the tomato\u001b[6D\u001b[K\ntomato mixture, 2 teaspoons turmeric powder, 1/2 teaspoon asafoetida (hing)\u001b[6D\u001b[K\n(hing), 1/2 teaspoon cumin seeds, and 1 tablespoon of chopped coriander lea\u001b[3D\u001b[K\nleaves for garnish. Simmer on low heat for another 15 minutes until everyth\u001b[7D\u001b[K\neverything is well combined and the sauce is thickened. Serve with rice or \u001b[K\nroti."
+  },
+  {
+    "question_number": 1,
+    "question": "How do I prepare dal tadka?",
+    "model_version": "V2",
+    "model_name": "chefmate-v2:latest",
+    "response": "To prepare dal tadka, start by cooking dried red lentils (tofu) until soft.\u001b[5D\u001b[K\nsoft. Once done, set aside. In the same pot, heat oil or ghee and add cumin\u001b[5D\u001b[K\ncumin seeds to toast lightly. Add mustard seeds, curry leaves, and finely c\u001b[1D\u001b[K\nchopped onions, and sauté until golden. Stir in sliced tomatoes, grated gin\u001b[3D\u001b[K\nginger, and green chilies, cooking until softened. Add the cooked lentils, \u001b[K\nturmeric, coriander powder, garam masala, salt, and 1 cup of water. Simmer \u001b[K\nfor 15 minutes, then serve with rice or roti."
+  },
+  {
+    "question_number": 2,
+    "question": "How can I substitute paneer in a vegetarian Indian recipe?",
+    "model_version": "Base",
+    "model_name": "qwen2.5:1.5b",
+    "response": "In a vegetarian Indian recipe, paneer can be substituted with a variety of \u001b[K\ndairy-free alternatives, including cashew cheese, coconut milk, and soy che\u001b[3D\u001b[K\ncheese. Here's how you can substitute paneer:\n\n1. **Cashew Cheese:**\n   - **Ingredients:**\n     - 1 cup raw cashews\n     - 1/4 cup water\n     - 1/4 cup vegan butter or oil\n     - 1/4 cup nutritional yeast\n     - 2 cloves garlic, minced\n     - 1 tablespoon lemon juice\n     - 1 teaspoon salt\n     - 1/2 teaspoon black pepper\n     - 1/4 teaspoon paprika\n     - 1/2 teaspoon dried basil\n     - 1/2 cup grated carrots\n   - **Instructions:**\n     1. Soak the cashews in water for 30 minutes.\n     2. Drain the cashews and add to a blender with water, vegan butter, nu\u001b[2D\u001b[K\nnutritional yeast, garlic, lemon juice, salt, black pepper, paprika, and dr\u001b[2D\u001b[K\ndried basil.\n     3. Blend until smooth and creamy.\n     4. Transfer to a bowl and stir in grated carrots.\n\n2. **Coconut Milk:**\n   - **Ingredients:**\n     - 1 cup coconut milk\n     - 1/4 cup unsweetened applesauce\n     - 1/4 cup nutritional yeast\n     - 1/4 cup maple syrup\n     - 1/4 cup vegan butter\n     - 1 tablespoon vanilla extract\n     - 1 teaspoon salt\n     - 1/2 teaspoon black pepper\n     - 1/2 teaspoon dried basil\n     - 1/2 cup chopped cucumber\n   - **Instructions:**\n     1. In a blender, combine coconut milk, applesauce, nutritional yeast, \u001b[K\nmaple syrup, vegan butter, vanilla extract, salt, black pepper, and dried b\u001b[1D\u001b[K\nbasil.\n     2. Blend until smooth and creamy.\n     3. Transfer to a bowl and stir in chopped cucumber.\n\n3. **Soy Cheese:**\n   - **Ingredients:**\n     - 1 cup soy milk\n     - 1/4 cup nutritional yeast\n     - 1/4 cup vegan butter\n     - 1 tablespoon garlic powder\n     - 1 teaspoon salt\n     - 1/2 teaspoon black pepper\n     - 1/2 teaspoon dried basil\n     - 1/2 cup grated carrots\n   - **Instructions:**\n     1. In a blender, combine soy milk, nutritional yeast, vegan butter, ga\u001b[2D\u001b[K\ngarlic powder, salt, black pepper, and dried basil.\n     2. Blend until smooth and creamy.\n     3. Transfer to a bowl and stir in grated carrots.\n\nFor these substitutes, ensure you adjust the seasonings and flavors to suit\u001b[4D\u001b[K\nsuit the taste of the dish you're preparing. Also, keep in mind that some o\u001b[1D\u001b[K\nof these ingredients may have a slight taste or texture difference, but the\u001b[3D\u001b[K\nthey will generally work well as substitutes for paneer in vegetarian India\u001b[5D\u001b[K\nIndian recipes."
+  },
+  {
+    "question_number": 2,
+    "question": "How can I substitute paneer in a vegetarian Indian recipe?",
+    "model_version": "V1",
+    "model_name": "chefmate-cooking:latest",
+    "response": "To substitute paneer in a vegetarian Indian recipe, you can use a combinati\u001b[9D\u001b[K\ncombination of crumbled cottage cheese (edamame-based) or extra-firm tofu, \u001b[K\noften seasoned with turmeric, cumin, and coriander for a similar texture. T\u001b[1D\u001b[K\nThese alternatives will need to be marinated slightly beforehand to release\u001b[7D\u001b[K\nrelease excess moisture and enhance absorption from the cooking liquid. Alt\u001b[3D\u001b[K\nAlternatively, if you're looking for a more authentic substitute, you can u\u001b[1D\u001b[K\nuse a blend of chickpeas soaked, mashed, and seasoned with spices like turm\u001b[4D\u001b[K\nturmeric, cumin, and coriander. This method results in a denser texture but\u001b[3D\u001b[K\nbut maintains the essence of paneer in vegetarian dishes."
+  },
+  {
+    "question_number": 2,
+    "question": "How can I substitute paneer in a vegetarian Indian recipe?",
+    "model_version": "V2",
+    "model_name": "chefmate-v2:latest",
+    "response": "To replace paneer in a vegetarian recipe, use firm tofu that has been drain\u001b[5D\u001b[K\ndrained and pressed. Cut it into cubes and marinate it with lemon juice, te\u001b[2D\u001b[K\ntempering (a mixture of spices), and oil to enhance flavor. For an extra tw\u001b[2D\u001b[K\ntwist, sauté the tofu pieces until golden before adding them to the dish. T\u001b[1D\u001b[K\nThis substitution works well in recipes like palak paneer or a simple veget\u001b[5D\u001b[K\nvegetable curry, where the texture can be disguised by mixing the tofu with\u001b[4D\u001b[K\nwith the greens or pureed at the end."
+  },
+  {
+    "question_number": 3,
+    "question": "How should I store cooked rice safely?",
+    "model_version": "Base",
+    "model_name": "qwen2.5:1.5b",
+    "response": "When storing cooked rice, it's important to ensure it's properly cooled and\u001b[3D\u001b[K\nand sealed to prevent the growth of harmful bacteria. Here are some steps t\u001b[1D\u001b[K\nto safely store cooked rice:\n\n1. Allow the rice to cool completely before storing. This will reduce the r\u001b[1D\u001b[K\nrisk of bacterial growth, which can cause foodborne illness.\n\n2. Transfer the rice to airtight containers, such as glass or plastic conta\u001b[5D\u001b[K\ncontainers with tight-fitting lids. This will help prevent air and moisture\u001b[8D\u001b[K\nmoisture from entering the container.\n\n3. Store the rice in the refrigerator, ideally in the coldest part of the r\u001b[1D\u001b[K\nrefrigerator to maintain the lowest temperature. The ideal temperature is b\u001b[1D\u001b[K\nbetween 32°F and 40°F (0°C and 4°C).\n\n4. Make sure to keep the rice covered to prevent any odors or contaminants \u001b[K\nfrom entering the container. If you use a plastic container, make sure it h\u001b[1D\u001b[K\nhas a lid that seals securely to prevent any moisture from seeping in.\n\n5. Label the containers with the date of cooking to help you identify when \u001b[K\nthe rice is best eaten.\n\n6. Use the rice within 3-4 days of cooking to ensure it's still safe to eat\u001b[3D\u001b[K\neat.\n\nBy following these steps, you can safely store cooked rice for later use."
+  },
+  {
+    "question_number": 3,
+    "question": "How should I store cooked rice safely?",
+    "model_version": "V1",
+    "model_name": "chefmate-cooking:latest",
+    "response": "To store cooked rice safely, let it cool down to room temperature if necess\u001b[6D\u001b[K\nnecessary, then transfer it into an airtight container. Refrigerate within \u001b[K\ntwo hours of cooking and consume within three days for best quality. Avoid \u001b[K\nstoring it in cold temperatures for more than five days as it can lead to t\u001b[1D\u001b[K\nthe growth of bacteria."
+  },
+  {
+    "question_number": 3,
+    "question": "How should I store cooked rice safely?",
+    "model_version": "V2",
+    "model_name": "chefmate-v2:latest",
+    "response": "To store cooked rice safely, allow it to cool down to room temperature befo\u001b[4D\u001b[K\nbefore refrigerating it in an airtight container. Reheat the rice thoroughl\u001b[9D\u001b[K\nthoroughly when ready to eat, ensuring that any potential bacteria have bee\u001b[3D\u001b[K\nbeen killed off. Refrigerate within 2 hours of cooking and consume within 4\u001b[1D\u001b[K\n4-5 days for best quality."
+  },
+  {
+    "question_number": 4,
+    "question": "Why is my roti becoming hard and dry?",
+    "model_version": "Base",
+    "model_name": "qwen2.5:1.5b",
+    "response": "Roti, also known as Indian bread, is a flatbread typically made from wheat \u001b[K\nflour, water, and ghee (clarified butter). The process of making roti invol\u001b[5D\u001b[K\ninvolves kneading the dough, allowing it to rise, shaping it into a round, \u001b[K\nand then flattening it to form the desired thickness. If your roti is becom\u001b[5D\u001b[K\nbecoming hard and dry, it could be due to several reasons:\n\n1. **Over-Kneading**: If you over-knead the dough, it can lead to the glute\u001b[5D\u001b[K\ngluten fibers in the flour breaking down, making the dough tough and hard. \u001b[K\nThis is especially common if you knead the dough for too long, often exceed\u001b[6D\u001b[K\nexceeding the 15-20 minutes recommended for best results.\n\n2. **Inadequate Rising**: If the dough doesn't rise properly or if the risi\u001b[4D\u001b[K\nrising time is too short, the roti will become hard and dry. Properly knead\u001b[5D\u001b[K\nkneaded and allowed to rise, the dough should be elastic and not sticky.\n\n3. **Staling**: Roti tends to become hard and dry after it's baked because \u001b[K\nit loses its moisture due to heat. It's essential to keep the roti moist by\u001b[2D\u001b[K\nby allowing it to rest on a clean, damp cloth after the initial cooking to \u001b[K\nprevent it from drying out too quickly.\n\n4. **Incorrect Shape and Handling**: If the roti is not shaped correctly or\u001b[2D\u001b[K\nor if it's handled too roughly, it can crack and become hard and dry.\n\n5. **Incorrect Cooking**: If the roti is cooked on a hot surface that heats\u001b[5D\u001b[K\nheats it unevenly or if it's cooked for too long without checking, it can b\u001b[1D\u001b[K\nbecome hard and dry.\n\n6. **Ghee Usage**: If the roti is not cooked in a sufficient amount of ghee\u001b[4D\u001b[K\nghee, it can become dry and hard.\n\nTo prevent roti from becoming hard and dry, make sure to knead the dough pr\u001b[2D\u001b[K\nproperly, allow it to rise correctly, handle it gently, and always ensure t\u001b[1D\u001b[K\nthat the roti is cooked properly. If you follow these guidelines, your roti\u001b[4D\u001b[K\nroti should remain soft and moist."
+  },
+  {
+    "question_number": 4,
+    "question": "Why is my roti becoming hard and dry?",
+    "model_version": "V1",
+    "model_name": "chefmate-cooking:latest",
+    "response": "A hard and dry roti might be due to overcooking or the dough drying out too\u001b[3D\u001b[K\ntoo much. Ensure you're rolling it out thinly and flipping it gently betwee\u001b[6D\u001b[K\nbetween both hands rather than using a rotating plate, which can cause it t\u001b[1D\u001b[K\nto become crusty on one side. Also, make sure your oil is not too hot; it s\u001b[1D\u001b[K\nshould smoke but shouldn't bubble excessively. If it's been sitting for an \u001b[K\nextended time, let it rest for a few minutes before cooking again to preven\u001b[6D\u001b[K\nprevent sticking."
+  },
+  {
+    "question_number": 4,
+    "question": "Why is my roti becoming hard and dry?",
+    "model_version": "V2",
+    "model_name": "chefmate-v2:latest",
+    "response": "Your roti might be hard and dry due to overheating or improper rolling. Mak\u001b[3D\u001b[K\nMake sure to roll the dough into a thin circle without过度拉伸或挤压。Also,\u001b[5D\u001b[K\nAlso, ensure you cook it on both sides evenly and flip carefully once golde\u001b[5D\u001b[K\ngolden brown. If the dough is too dry, add a small amount of water; if too \u001b[K\nsticky, sprinkle some rice flour."
+  },
+  {
+    "question_number": 5,
+    "question": "How can I make a vegetarian Indian curry less spicy?",
+    "model_version": "Base",
+    "model_name": "qwen2.5:1.5b",
+    "response": "To make a vegetarian Indian curry less spicy, you can:\n\n1. **Use milder spices**: Replace some of the cayenne pepper or red chili f\u001b[1D\u001b[K\nflakes with milder spices like cumin, coriander, or turmeric. These spices \u001b[K\ntend to be milder in flavor.\n\n2. **Reduce the amount of spice**: Decrease the amount of cayenne pepper or\u001b[2D\u001b[K\nor chili flakes used in the recipe. This will significantly reduce the heat\u001b[4D\u001b[K\nheat.\n\n3. **Add more cooling ingredients**: Include cooling ingredients such as ci\u001b[2D\u001b[K\ncilantro, mint, or lemongrass. These can help balance out the heat of the c\u001b[1D\u001b[K\ncurry.\n\n4. **Use a blend of spices**: Mix mild and hot spices together. For example\u001b[7D\u001b[K\nexample, use a blend of 50% mild and 50% hot spices. This can help reduce t\u001b[1D\u001b[K\nthe overall spiciness of the dish.\n\n5. **Add a cooling liquid**: Use a cooler liquid instead of water. For exam\u001b[4D\u001b[K\nexample, use coconut milk or yogurt instead of water.\n\n6. **Season with vinegar or citrus**: Adding a small amount of apple cider \u001b[K\nvinegar or lime juice can help cool down the spiciness.\n\n7. **Serve with a side of yogurt**: Adding a dollop of yogurt can help neut\u001b[4D\u001b[K\nneutralize the heat, as it contains lactic acid, which can help cool down t\u001b[1D\u001b[K\nthe spicy dish.\n\n8. **Add a dash of sugar**: Adding a small amount of sugar can help balance\u001b[7D\u001b[K\nbalance the spiciness.\n\n9. **Use a milder type of yogurt**: If you're using yogurt, opt for a plain\u001b[5D\u001b[K\nplain, sweet yogurt rather than the tangy kind, as it can be milder.\n\n10. **Adjust seasonings**: Ensure that your recipe calls for an even amount\u001b[6D\u001b[K\namount of salt and pepper, as excess salt can enhance the heat in the curry\u001b[5D\u001b[K\ncurry.\n\nRemember, some spice blends are more mild than others, and some people may \u001b[K\nprefer a bit more heat in their dishes. Adjust the recipe to your personal \u001b[K\npreference and tolerance for heat."
+  },
+  {
+    "question_number": 5,
+    "question": "How can I make a vegetarian Indian curry less spicy?",
+    "model_version": "V1",
+    "model_name": "chefmate-cooking:latest",
+    "response": "To reduce the spiciness of your vegetarian curry, start by using milder spi\u001b[3D\u001b[K\nspices like cayenne pepper or chili flakes instead of hotter ones. Also, ad\u001b[2D\u001b[K\nadd more of the accompanying vegetables that are already mild in flavor, su\u001b[2D\u001b[K\nsuch as bell peppers and corn, to dilute the heat level. If you've added a \u001b[K\nhot vegetable like tomatoes or bell peppers too early, remove them now befo\u001b[4D\u001b[K\nbefore they overpower the dish. To further tame the heat, simmer the curry \u001b[K\non low heat for a bit longer if needed, which can break down some of the sp\u001b[2D\u001b[K\nspices, making them less potent."
+  },
+  {
+    "question_number": 5,
+    "question": "How can I make a vegetarian Indian curry less spicy?",
+    "model_version": "V2",
+    "model_name": "chefmate-v2:latest",
+    "response": "To reduce the spiciness of your vegetarian Indian curry, add more of the fo\u001b[2D\u001b[K\nfollowing: tomatoes for balance, onion and garlic to deepen flavor without \u001b[K\nincreasing heat, or simmering longer with onions until they become soft but\u001b[3D\u001b[K\nbut not burnt. For immediate relief, dilute the chili flakes or other spice\u001b[5D\u001b[K\nspices by adding a tablespoon of water or vegetable stock per teaspoon of s\u001b[1D\u001b[K\nspice, which can also enhance the flavors."
+  }
+]
